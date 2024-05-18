@@ -121,11 +121,13 @@ header nav ul li a:hover {
 
 @media only screen and (max-width: 500px){
     .main {
-        transform: translateY(-12%);
+        transform: translateY(-6.5%);
         transition: transform .5s;
+        margin-bottom: -17%;
     }
     .movement-container--toggle {
         transform: translateY(0%);
+        margin-bottom: 2.5%;
     }
 }
 
@@ -338,6 +340,13 @@ main {
     }
     .extra {
         display: none;
+    }
+    .triangle {
+        border-bottom: 3vh solid #daedff;
+        border-left: 5vw solid transparent;
+        border-right: 5vw solid transparent;
+        margin-left: 43%;
+        margin-top: -1rem;
     }
 }
 
