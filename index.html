@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="./script.js"></script>
+    <title>James Consulting</title>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <nav>
+                <h1>James <span class="blue-text">Consulting</span></h1>
+                <div id="toggleMenu" class="toggle-menu" onclick="openMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul id="mainMenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Clients</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main id="main" class="main">
+            <article class="main-img">
+                <img src="./consulting/main_img (1).png" alt="man skying">
+            </article>
+
+            <article class="service-products">
+                <section class="box-with-information">
+                    <div class="title">
+                        <img src="./consulting/icon.png" alt="tool image">
+                        <h3>Services</h3>
+                    </div>
+                    <p>You have an idea about where you want your business to go? Need some help getting there? We are the experts at helping our customers take their businesses to the next stage. We look forward to transforming your business ...</p>
+                    <button class="btn-movement">More info</button>
+                </section>
+
+                <section class="box-with-information">
+                    <div class="title">
+                        <img src="./consulting/icon.png" alt="tool image">
+                        <h3>Projects</h3>
+                    </div>
+                    <p>We worked with Pinktrip, a local fashion retailer, in 2010. They had a dream to take their business to the next level and draw in a national base of customers, while retaining the local feel of their store online. <span class="new-line">We redesigned ...</span></p>
+                    <button class="btn-movement">More info</button>
+                </section>
+
+                <section class="box-with-information">
+                    <div class="title">
+                        <img src="./consulting/icon.png" alt="tool image">
+                        <h3>Clients</h3>
+                    </div>
+                    <p>We have worked with a variety of businesses varying from non-profit to corporate to retail. Althought our clients have ranged in size to large corporations, our niche is helping small and medium sized clients discover ...</p>
+                    <button class="btn-movement">More info</button>
+                </section>
+            </article>
+
+            <article class="information-about-company">
+
+                <section class="header-text">
+                    <p>THE WORLD CAN BE YOURS! <span class="space-between-texts"> </span> <span class="extra">TESTIMONIAL</span></p>
+                </section>
+
+                <section class="information-and-feedback">
+
+                    <div class="company-building">
+                        <img src="./consulting/building.png" alt="comapny building photo">
+                    </div>
+
+                    <div class="middle-text">
+                        <p>Our goal at James Consulting is to provide effective solutions designed to boost your business, be it small or a large organization.</p>
+                        <p>Our consultants design solutiones tailored specifically to the needs of your business in order to ensure you achieve your dreams of success.</p>
+                        <p>Check out our custom solutions and services.</p>
+                        <button class="btn-blue_no_style">Learn more</button>
+                    </div>
+
+                    <div class="testimonial-square">
+                        <div class="testimonial" onclick="testimonialClick()">
+                            <div class="text-italic">
+                                <p>“I'm a testimonial. Click me to edit and add text that says something nice about you and your services.”</p>
+                            </div>
+                        </div>
+                        <div class="triangle"></div>
+                        <p class="author">Samantha Jones, Projects Manager</p>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Clients</a></li>
+            </ul>
+        </footer>
+
+    </div>
+    
+
+</body>
+</html>
