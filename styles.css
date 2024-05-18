@@ -70,7 +70,7 @@ header nav ul li a:hover {
     display: none;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 430px) {
     html,
     body {
         width: 100%;
@@ -96,7 +96,7 @@ header nav ul li a:hover {
     }
     .toggle-menu {
         display: inline;
-        position: absolute;
+
         top: 9rem;
         left: 46.5%;
         font-size: 40px;
@@ -119,9 +119,9 @@ header nav ul li a:hover {
 /* FIN HEADER */
 /* INICIO MAIN */
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 430px){
     .main {
-        transform: translateY(-3%);
+        transform: translateY(-6.5%);
         transition: transform .5s;
         margin-bottom: -17%;
     }
@@ -220,7 +220,7 @@ main {
     display: block;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:430px){
     .service-products{
         grid-template-columns: 1fr;
         row-gap: 20px;
@@ -316,7 +316,7 @@ main {
     font-size: 12px;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 430px){
     .information-and-feedback {
         grid-template-columns: 1fr;
     }
