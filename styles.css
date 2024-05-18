@@ -121,7 +121,7 @@ header nav ul li a:hover {
 
 @media only screen and (max-width: 500px){
     .main {
-        transform: translateY(-6.5%);
+        transform: translateY(-3%);
         transition: transform .5s;
         margin-bottom: -17%;
     }
